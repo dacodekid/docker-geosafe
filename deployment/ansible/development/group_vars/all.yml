@@ -8,11 +8,11 @@ ogc_backend: qgis_server
 use_geosafe: True
 
 # put your linux/mac user here
-remote_user: user
+remote_user: dacodekid
 # put your linux/mac group here
-remote_group: group
+remote_group: staff
 # put project path
-project_path: "/Users/user/Documents/WorkingDir/Projects/InaSAFE/docker-geosafe"
+project_path: "/Users/dacodekid/dev/docker-geosafe"
 
 # component path relative to project_path
 component_path:
@@ -73,9 +73,9 @@ django:
     EMAIL_ENABLE: True
     # Django MISC settings
     LANGUAGE_CODE: en
-    USE_THEME_APP: False
+    USE_THEME_APP: True
     THEME_APP_PATH: /usr/src/custom_theme
-    THEME_APP_NAME: custom_theme
+    THEME_APP_NAME: ingc_geonode_theme
     # Settings for qgis server
     QGIS_SERVER_URL: http://qgis-server/
     # Settings for geoserver
@@ -90,7 +90,7 @@ django:
     GEOSAFE_IMPACT_OUTPUT_DIRECTORY: "/home/geosafe/impact_layers"
     INASAFE_IMPACT_BASE_URL: "/output/"
     USE_LAYER_HTTP_ACCESS: False
-    INASAFE_ANALYSIS_RUN_TIME_LIMIT: 600
+    INASAFE_ANALYSIS_RUN_TIME_LIMIT: 600000
     INASAFE_ANALYSIS_AREA_LIMIT: 1000000000
     INASAFE_SETTINGS_PATH: /home/headless/settings/inasafe-settings.json
     MINIMUM_NEEDS_LOCALE_MAPPING_PATH: /home/headless/settings/min-needs-mapping.json
