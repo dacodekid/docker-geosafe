@@ -107,7 +107,7 @@ deployment/production/**/env.sh
 deployment/geonode_backup
 
 # custom theme
-src/custom_theme
+# src/custom_theme
 
 pycharm_helpers
 

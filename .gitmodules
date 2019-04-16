@@ -10,3 +10,6 @@
 [submodule "src/otf-project"]
 	path = src/otf-project
 	url = https://github.com/kartoza/otf-project.git
+[submodule "src/custom_theme"]
+	path = src/custom_theme
+	url = git@github.com:dacodekid/ingc_geonode_theme.git
