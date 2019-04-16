@@ -96,7 +96,7 @@ deployment/inasafe
 deployment/pg
 deployment/qgis-server-log
 deployment/qgis-web
-deployment/docker-compose.override.yml
+# deployment/docker-compose.override.yml
 deployment/ansible/development/group_vars/all
 # deployment/ansible/development/group_vars/all.yml
 deployment/ansible/development/group_vars/all.yml.backup*
